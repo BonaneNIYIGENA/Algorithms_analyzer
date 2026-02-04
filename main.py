@@ -113,8 +113,11 @@ def retrieve_analysis():
     if not result: 
         return jsonify({"error": "Not found"}), 404
     return jsonify({
-        "algo": result.algo, "items": result.items, "steps": result.steps,
-        "total_time_ms": result.total_time_ms, "time_complexity": result.time_complexity,
+        "algo": result.algo,
+        "items": result.items,
+        "steps": result.steps,
+        "total_time_ms": result.total_time_ms,
+        "time_complexity": result.time_complexity,
         "path_to_graph": result.path_to_graph
     })
 
