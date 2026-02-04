@@ -1,2 +1,12 @@
 # Project exclude paths
 /.venv/
+/.idea/.gitignore
+/.idea/Algo.iml
+/.idea/copilot.data.migration.agent.xml
+/.idea/copilot.data.migration.ask2agent.xml
+/.idea/copilot.data.migration.edit.xml
+/.idea/dataSources.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
